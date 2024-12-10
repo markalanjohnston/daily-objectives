@@ -4,21 +4,49 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    background-color: #000; /* High-contrast background */
+    color: #fff; /* High-contrast text */
 }
 
 #upper {
     flex: 2;
-    padding: 20px;
-    background-color: #f4f4f4;
+    padding: 50px;
+    text-align: center;
     overflow-y: auto;
+}
+
+h1 {
+    font-size: 3rem; /* Larger header font for TVs */
+    margin-bottom: 20px;
+    color: #FFD700; /* Gold color for headers */
+}
+
+#lesson-data p {
+    font-size: 2rem; /* Larger font size for text */
+    margin: 15px 0;
+    line-height: 1.5;
+}
+
+#lesson-data strong {
+    color: #FFD700; /* Gold color for labels */
 }
 
 #lower {
     flex: 1;
+    background-color: #222; /* Dark gray background for iframe */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 iframe {
     width: 100%;
     height: 100%;
     border: none;
+}
+
+/* Add spacing around sections */
+p, span {
+    display: block;
+    margin: 10px auto;
 }
