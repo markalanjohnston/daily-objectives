@@ -3,25 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HMS Engineering Lesson Display</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Lesson Display</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            height: 100vh;
+            background-color: #000; /* High contrast */
+            color: #fff;
+        }
+
+        #upper {
+            flex: 1; /* Takes up the full height of the page */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+            overflow-y: auto;
+        }
+
+        h1 {
+            font-size: 3vw; /* Adjust header size dynamically */
+            color: #FFD700; /* Gold color for headers */
+            margin-bottom: 20px;
+        }
+
+        #lesson-data {
+            display: grid;
+            grid-template-columns: auto 1fr; /* Two columns for labels and content */
+            align-items: center;
+            gap: 10px;
+            max-width: 90%; /* Center content with margins */
+        }
+
+        #lesson-data span {
+            font-size: 2.5vw; /* Font size adjusts dynamically */
+        }
+
+        #lesson-data strong {
+            text-align: right;
+            color: #FFD700; /* Gold color for labels */
+            font-size: 2.5vw; /* Adjust dynamically with viewport */
+        }
+    </style>
 </head>
 <body>
     <div id="upper">
+        <h1>Principles of Applied Engineering - Daily Lesson Objectives</h1>
         <div id="lesson-data">
-            <span id="date"></span>
+            <strong>Date:</strong> <span id="date"></span>
             <strong>We Will:</strong> <span id="we-will"></span>
             <strong>I Will:</strong> <span id="i-will"></span>
             <strong>Essential Question (EQ):</strong> <span id="eq"></span>
         </div>
     </div>
-    <div id="lower">
-        <iframe src="https://bsx.d4.imti.co/bell/hornedo" frameborder="0"></iframe>
-    </div>
-    
 
-    <script src="script.js"></script>
     <script>
+        // Function to fetch and parse CSV data
+        function fetchCSVData() {
+            // Example of CSV data. Replace this with actual CSV content if hosted on a server
+            const csvData = `
+                12/8/2024,"Apply nested loops, sensors, and conditionals to complete the Disk Mover Challenge.","Program the VR Robot to pick up all disks and place them in their corresponding goals.","How do algorithms with loops and sensors solve complex robotic challenges?"
+                12/9/2024,"Create custom algorithms for specific tasks.","Develop an algorithm that sorts objects by color and size.","What makes an algorithm efficient?"
+                12/10/2024,"Use nested loops to simplify and organize repetitive tasks in the Disk Mover Playground.","Write a program using nested loops to pick up and move disks of different colors into their goals.","How do nested loops help simplify code for complex tasks?"
+                12/11/2024,"Apply nested loops, sensors, and conditionals to complete the Disk Mover Challenge.","Program the VR Robot to pick up all disks and place them in their corresponding goals.","How do algorithms with loops and sensors solve complex robotic challenges?"
+                12/12/2024,"TEST DAY","TEST DAY","TEST DAY"
+                12/13/2024,"TEST DAY","TEST DAY","TEST DAY"
+            `.trim();
+
+            // Split CSV into rows and columns
+            const rows = csvData.split("\n").map(row => row.split(","));
+
+            // Find today's date in MM/DD/YYYY format
+            const today = new Date().toLocaleDateString("en-US");
+
+            // Find the row with today's date
+            const todayLesson = rows.find(row => row[0].trim() === today);
+
+            if (todayLesson) {
+                document.getElementById("date").textContent = todayLesson[0];
+                document.getElementById("we-will").textContent = todayLesson[1].replace(/"/g, '');
+                document.getElementById("i-will").textContent = todayLesson[2].replace(/"/g, '');
+                document.getElementById("eq").textContent = todayLesson[3].replace(/"/g, '');
+            } else {
+                document.getElementById("lesson-data").innerHTML = "<p>No data available for today.</p>";
+            }
+        }
+
+        // Function to dynamically resize text
         function resizeText() {
             const elements = document.querySelectorAll("#lesson-data span, #lesson-data strong");
             elements.forEach(el => {
@@ -36,9 +108,15 @@
                 }
             });
         }
-    window.addEventListener("resize", resizeText);
-    document.addEventListener("DOMContentLoaded", resizeText);
-    </script>
 
+        // Initialize on page load
+        document.addEventListener("DOMContentLoaded", () => {
+            fetchCSVData();
+            resizeText();
+        });
+
+        // Resize text on window resize
+        window.addEventListener("resize", resizeText);
+    </script>
 </body>
 </html>
