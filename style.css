@@ -4,36 +4,48 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background-color: #000; /* High-contrast background */
-    color: #fff; /* High-contrast text */
+    background-color: #000; /* High contrast */
+    color: #fff;
 }
 
 #upper {
     flex: 2;
-    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    padding: 20px;
     overflow-y: auto;
 }
 
 h1 {
-    font-size: 3rem; /* Larger header font for TVs */
-    margin-bottom: 20px;
+    font-size: 3vw; /* Adjust header size dynamically */
     color: #FFD700; /* Gold color for headers */
+    margin-bottom: 20px;
 }
 
-#lesson-data p {
-    font-size: 3.5rem; /* Larger font size for text */
-    margin: 15px 0;
-    line-height: 1.5;
+#lesson-data {
+    display: grid;
+    grid-template-columns: auto 1fr; /* Two columns for labels and content */
+    align-items: center;
+    gap: 10px;
+    max-width: 90%; /* Center content with margins */
+}
+
+#lesson-data span {
+    font-size: 2.5vw; /* Font size adjusts dynamically */
 }
 
 #lesson-data strong {
+    text-align: right;
     color: #FFD700; /* Gold color for labels */
+    font-size: 2.5vw; /* Adjust dynamically with viewport */
 }
 
 #lower {
     flex: 1;
-    background-color: #222; /* Dark gray background for iframe */
+    background-color: #222; /* Dark gray background */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,10 +55,4 @@ iframe {
     width: 100%;
     height: 100%;
     border: none;
-}
-
-/* Add spacing around sections */
-p, span {
-    display: block;
-    margin: 10px auto;
 }

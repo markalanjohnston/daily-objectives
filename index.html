@@ -10,16 +10,36 @@
     <div id="upper">
         <h1>Principles of Applied Engineering - Daily Lesson Objectives</h1>
         <div id="lesson-data">
-            <p><span id="date"></span></p>
-            <p><strong>We Will:</strong> <span id="we-will"></span></p>
-            <p><strong>I Will:</strong> <span id="i-will"></span></p>
-            <p><strong>Essential Question (EQ):</strong> <span id="eq"></span></p>
+            <strong>Date:</strong> <span id="date"></span>
+            <strong>We Will:</strong> <span id="we-will"></span>
+            <strong>I Will:</strong> <span id="i-will"></span>
+            <strong>Essential Question (EQ):</strong> <span id="eq"></span>
         </div>
     </div>
     <div id="lower">
         <iframe src="https://bsx.d4.imti.co/bell/hornedo" frameborder="0"></iframe>
     </div>
+    
 
     <script src="script.js"></script>
+    <script>
+        function resizeText() {
+            const elements = document.querySelectorAll("#lesson-data span, #lesson-data strong");
+            elements.forEach(el => {
+                let fontSize = 2.5; // Starting font size in vw
+                el.style.fontSize = `${fontSize}vw`;
+
+                // Reduce font size if text overflows
+                while (el.scrollWidth > el.offsetWidth || el.scrollHeight > el.offsetHeight) {
+                    fontSize -= 0.1;
+                    el.style.fontSize = `${fontSize}vw`;
+                    if (fontSize <= 0.5) break; // Prevent infinite loop
+                }
+            });
+        }
+    window.addEventListener("resize", resizeText);
+    document.addEventListener("DOMContentLoaded", resizeText);
+    </script>
+
 </body>
 </html>
