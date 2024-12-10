@@ -9,55 +9,47 @@
             margin: 0;
             font-family: Arial, sans-serif;
             display: flex;
+            justify-content: center;
+            align-items: center;
             height: 100vh;
             background-color: #000; /* High contrast */
             color: #fff;
         }
 
-        #upper {
-            flex: 1; /* Takes up the full height of the page */
+        #content {
+            text-align: center;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            text-align: center;
-            padding: 20px;
-            overflow-y: auto;
+            width: 90%; /* Ensure padding within the screen */
+            height: 90%; /* Ensure content stays within bounds */
+            overflow: hidden;
         }
 
-        h1 {
-            font-size: 3vw; /* Adjust header size dynamically */
-            color: #FFD700; /* Gold color for headers */
-            margin-bottom: 20px;
+        #date {
+            font-size: clamp(3rem, 8vw, 10rem); /* Adjust for larger text */
+            margin-bottom: 2%;
         }
 
         #lesson-data {
-            display: grid;
-            grid-template-columns: auto 1fr; /* Two columns for labels and content */
-            align-items: center;
-            gap: 10px;
-            max-width: 90%; /* Center content with margins */
+            font-size: clamp(2.5rem, 6vw, 7rem); /* Scale for larger text */
+            line-height: 1.3; /* Adjust spacing between lines */
+            text-align: center;
         }
 
-        #lesson-data span {
-            font-size: 2.5vw; /* Font size adjusts dynamically */
-        }
-
-        #lesson-data strong {
-            text-align: right;
-            color: #FFD700; /* Gold color for labels */
-            font-size: 2.5vw; /* Adjust dynamically with viewport */
+        p {
+            margin: 0.5em 0; /* Add spacing between lines */
         }
     </style>
 </head>
 <body>
-    <div id="upper">
-        <h1>Principles of Applied Engineering - Daily Lesson Objectives</h1>
+    <div id="content">
+        <div id="date"></div>
         <div id="lesson-data">
-            <strong>Date:</strong> <span id="date"></span>
-            <strong>We Will:</strong> <span id="we-will"></span>
-            <strong>I Will:</strong> <span id="i-will"></span>
-            <strong>Essential Question (EQ):</strong> <span id="eq"></span>
+            <p id="we-will"></p>
+            <p id="i-will"></p>
+            <p id="eq"></p>
         </div>
     </div>
 
@@ -66,12 +58,9 @@
         function fetchCSVData() {
             // Example of CSV data. Replace this with actual CSV content if hosted on a server
             const csvData = `
-                12/8/2024,"Apply nested loops, sensors, and conditionals to complete the Disk Mover Challenge.","Program the VR Robot to pick up all disks and place them in their corresponding goals.","How do algorithms with loops and sensors solve complex robotic challenges?"
-                12/9/2024,"Create custom algorithms for specific tasks.","Develop an algorithm that sorts objects by color and size.","What makes an algorithm efficient?"
-                12/10/2024,"Use nested loops to simplify and organize repetitive tasks in the Disk Mover Playground.","Write a program using nested loops to pick up and move disks of different colors into their goals.","How do nested loops help simplify code for complex tasks?"
-                12/11/2024,"Apply nested loops, sensors, and conditionals to complete the Disk Mover Challenge.","Program the VR Robot to pick up all disks and place them in their corresponding goals.","How do algorithms with loops and sensors solve complex robotic challenges?"
-                12/12/2024,"TEST DAY","TEST DAY","TEST DAY"
-                12/13/2024,"TEST DAY","TEST DAY","TEST DAY"
+                12/9/2024,"We Will: Create custom algorithms for specific tasks.","I Will: Develop an algorithm that sorts objects by color and size.","EQ: What makes an algorithm efficient?"
+                12/10/2024,"We Will: Use nested loops to simplify and organize repetitive tasks in the Disk Mover Playground.","I Will: Write a program using nested loops to pick up and move disks of different colors into their goals.","EQ: How do nested loops help simplify code for complex tasks?"
+                12/11/2024,"We Will: Apply nested loops, sensors, and conditionals to complete the Disk Mover Challenge.","I Will: Program the VR Robot to pick up all disks and place them in their corresponding goals.","EQ: How do algorithms with loops and sensors solve complex robotic challenges?"
             `.trim();
 
             // Split CSV into rows and columns
@@ -93,30 +82,15 @@
             }
         }
 
-        // Function to dynamically resize text
-        function resizeText() {
-            const elements = document.querySelectorAll("#lesson-data span, #lesson-data strong");
-            elements.forEach(el => {
-                let fontSize = 2.5; // Starting font size in vw
-                el.style.fontSize = `${fontSize}vw`;
-
-                // Reduce font size if text overflows
-                while (el.scrollWidth > el.offsetWidth || el.scrollHeight > el.offsetHeight) {
-                    fontSize -= 0.1;
-                    el.style.fontSize = `${fontSize}vw`;
-                    if (fontSize <= 0.5) break; // Prevent infinite loop
-                }
-            });
-        }
-
         // Initialize on page load
         document.addEventListener("DOMContentLoaded", () => {
             fetchCSVData();
-            resizeText();
-        });
 
-        // Resize text on window resize
-        window.addEventListener("resize", resizeText);
+            // Set up auto-refresh every 2 hours (7200000 milliseconds)
+            setTimeout(() => {
+                window.location.reload();
+            }, 7200000); // 2 hours in milliseconds
+        });
     </script>
 </body>
 </html>
