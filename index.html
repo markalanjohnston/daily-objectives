@@ -68,9 +68,9 @@
 
                 if (todayLesson) {
                     document.getElementById("date").textContent = todayLesson.date;
-                    document.getElementById("we-will").textContent = todayLesson.weWill;
-                    document.getElementById("i-will").textContent = todayLesson.iWill;
-                    document.getElementById("eq").textContent = todayLesson.eq;
+                    document.getElementById("we-will").textContent = "We Will: " + todayLesson.weWill;
+                    document.getElementById("i-will").textContent = "I Will: " + todayLesson.iWill;
+                    document.getElementById("eq").textContent = "EQ: " + todayLesson.eq;
                 } else {
                     document.getElementById("lesson-data").innerHTML = "<p>No data available for today.</p>";
                 }
@@ -79,6 +79,7 @@
                 document.getElementById("lesson-data").innerHTML = "<p>Error loading data.</p>";
             }
         }
+
 
         // Refresh page every 2 hours
         function setupAutoRefresh() {
