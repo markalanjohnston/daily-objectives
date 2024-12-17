@@ -16,11 +16,11 @@ async function fetchJSONData() {
             document.getElementById("i-will").textContent = "I Will: " + todayLesson.iWill;
             document.getElementById("eq").textContent = "EQ: " + todayLesson.eq;
         } else {
-            document.getElementById("lesson-data").innerHTML = "<p>No data available for today.</p>";
+            document.getElementById("content").innerHTML = "<p style='padding: 20px; font-size: 2rem;'>No data available for today.</p>";
         }
     } catch (error) {
         console.error("Error fetching JSON data:", error);
-        document.getElementById("lesson-data").innerHTML = "<p>Error loading data.</p>";
+        document.getElementById("content").innerHTML = "<p style='padding: 20px; font-size: 2rem;'>Error loading data.</p>";
     }
 }
 

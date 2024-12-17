@@ -12,48 +12,60 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-color: #000; /* High contrast */
+            background-color: #000; /* High contrast background */
             color: #fff;
         }
 
         #content {
             text-align: center;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
             width: 90%;
-            height: 90%;
+            max-width: 1200px;
+            margin: auto;
+            border-radius: 8px;
             overflow: hidden;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
         }
 
         #date {
-            font-size: 3rem; /* Fixed font size */
-            margin-bottom: 20px;
+            background-color: #7d7d7d; /* Gray */
+            color: #fff;
+            padding: 20px;
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin: 0;
         }
 
-        #lesson-data {
-            font-size: 2rem; /* Fixed font size */
-            line-height: 1.5;
-            text-align: center;
+        #we-will, #i-will, #eq {
+            margin: 0;
+            padding: 15px 20px;
+            font-size: 1.8rem;
+            font-weight: bold;
         }
 
-        p {
-            margin: 10px 0;
+        #we-will {
+            background-color: #28a745; /* Green */
+            color: #fff;
+        }
+
+        #i-will {
+            background-color: #007bff; /* Blue */
+            color: #fff;
+        }
+
+        #eq {
+            background-color: #dc3545; /* Red */
+            color: #fff;
         }
     </style>
 </head>
 <body>
     <div id="content">
         <div id="date"></div>
-        <div id="lesson-data">
-            <p id="we-will"></p>
-            <p id="i-will"></p>
-            <p id="eq"></p>
-        </div>
+        <div id="we-will"></div>
+        <div id="i-will"></div>
+        <div id="eq"></div>
     </div>
 
-    <!-- Link to external script -->
     <script src="script.js"></script>
 </body>
 </html>
