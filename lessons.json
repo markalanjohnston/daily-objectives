@@ -29,4 +29,76 @@
         "iWill": "Evaluate my learning, provide feedback, and plan for next semester.",
         "eq": "How has this semester prepared you for future problem-solving challenges?"
     }
+    {
+        "date": "1/8/2025",
+        "weWill": "Understand bridge design concepts, the engineering design process, and the challenge criteria.",
+        "iWill": "List 'Know' and 'Need-to-Know' information about bridge building and the project requirements in my engineering notebook.",
+        "eq": "How can understanding bridge design principles help solve real-world challenges?"
+    },
+    {
+        "date": "1/9/2025",
+        "weWill": "Collaborate to form teams, establish group norms, and complete group contracts for successful teamwork.",
+        "iWill": "Collaborate with my team to finalize our group contract and agree on roles and responsibilities.",
+        "eq": "How can establishing group norms contribute to successful collaboration?"
+    },
+    {
+        "date": "1/10/2025",
+        "weWill": "Define the problem, brainstorm ideas, and document possible bridge designs as a team.",
+        "iWill": "Contribute to my team’s brainstorming process and document our ideas and plans in our engineering notebook.",
+        "eq": "How does brainstorming and defining the problem contribute to effective solutions?"
+    },
+    {
+        "date": "1/13/2025",
+        "weWill": "Begin planning bridge designs and creating initial prototypes as a team.",
+        "iWill": "Collaborate with my team to sketch, model, and plan our bridge design.",
+        "eq": "How can we effectively plan a solution to meet design criteria?"
+    },
+    {
+        "date": "1/14/2025",
+        "weWill": "Use Fusion 360 to create 3D models of our designs.",
+        "iWill": "Complete and review a 3D model of our bridge design using Fusion 360.",
+        "eq": "How does CAD software enhance the design process?"
+    },
+    {
+        "date": "1/15/2025",
+        "weWill": "Test and refine prototypes based on observations and data.",
+        "iWill": "Assist in testing and refining our prototype based on results.",
+        "eq": "How can we refine our bridge to optimize performance?"
+    },
+    {
+        "date": "1/16/2025",
+        "weWill": "Finalize and test bridge structures.",
+        "iWill": "Help complete final adjustments and ensure our bridge meets requirements.",
+        "eq": "How can data from testing guide improvements in our design?"
+    },
+    {
+        "date": "1/17/2025",
+        "weWill": "Test bridges to ensure they can support a 20 lb. weight for 60 seconds.",
+        "iWill": "Participate in the 20 lb. test and document the results in my engineering notebook.",
+        "eq": "What strategies ensure structural integrity under load?"
+    },
+    {
+        "date": "1/21/2025",
+        "weWill": "Test bridge designs to determine maximum weight capacity.",
+        "iWill": "Record test data and analyze bridge performance.",
+        "eq": "What can we learn from testing and evaluating designs?"
+    },
+    {
+        "date": "1/22/2025",
+        "weWill": "Finalize presentation materials and practice delivery.",
+        "iWill": "Ensure my presentation materials are complete and clear.",
+        "eq": "How can clear communication enhance understanding of a project?"
+    },
+    {
+        "date": "1/23/2025",
+        "weWill": "Present project findings, challenges, and solutions.",
+        "iWill": "Share my team’s findings and insights during the presentation.",
+        "eq": "What strategies make a presentation compelling and effective?"
+    },
+    {
+        "date": "1/24/2025",
+        "weWill": "Deliver presentations and reflect on project outcomes.",
+        "iWill": "Evaluate my team’s performance and consider improvements for future projects.",
+        "eq": "How can reflecting on a project lead to personal and team growth?"
+    }
 ]
