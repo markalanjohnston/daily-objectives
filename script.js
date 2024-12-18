@@ -15,6 +15,13 @@ async function fetchJSONData() {
             option.textContent = lesson.date;
             dateDropdown.appendChild(option);
         });
+        // Add the listener AFTER populating options
+        dateDropdown.addEventListener("change", (e) => {
+            console.log("Dropdown changed:", e.target.value);
+            const selectedDate = e.target.value;
+            const selectedLesson = lessonData.find(lesson => lesson.date === selectedDate);
+            if (selectedLesson) displayLesson(selectedLesson);
+        });
 
         // Display today's lesson initially
         const today = new Date().toLocaleDateString('en-US');
