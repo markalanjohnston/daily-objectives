@@ -9,36 +9,32 @@ async function fetchJSONData() {
 
         // Populate the dropdown menu with available dates
         const dateDropdown = document.getElementById("dateDropdown");
+        
+        // Add default "SELECT DAY" option
+        const defaultOption = document.createElement("option");
+        defaultOption.value = "";
+        defaultOption.textContent = "SELECT DAY";
+        defaultOption.disabled = true; // Prevent selection
+        defaultOption.selected = true; // Set as default
+        dateDropdown.appendChild(defaultOption);
+
+        // Add actual date options
         data.forEach(lesson => {
             const option = document.createElement("option");
             option.value = lesson.date;
             option.textContent = lesson.date;
             dateDropdown.appendChild(option);
         });
-        // Add the listener AFTER populating options
-        dateDropdown.addEventListener("change", (e) => {
-            console.log("Dropdown changed:", e.target.value);
-            const selectedDate = e.target.value;
-            const selectedLesson = lessonData.find(lesson => lesson.date === selectedDate);
-            if (selectedLesson) displayLesson(selectedLesson);
-        });
-
-        // Display today's lesson initially
-        const today = new Date().toLocaleDateString('en-US');
-        const todayLesson = data.find(lesson => lesson.date === today);
-        if (todayLesson) {
-            displayLesson(todayLesson);
-            dateDropdown.value = today; // Set dropdown to today's date
-        } else {
-            displayLesson(data[0]); // Default to first entry if no match
-            dateDropdown.value = data[0].date;
-        }
 
         // Add event listener for dropdown changes
         dateDropdown.addEventListener("change", (e) => {
             const selectedDate = e.target.value;
             const selectedLesson = lessonData.find(lesson => lesson.date === selectedDate);
-            if (selectedLesson) displayLesson(selectedLesson);
+            if (selectedLesson) {
+                displayLesson(selectedLesson);
+            } else {
+                console.error("No data found for the selected date.");
+            }
         });
 
     } catch (error) {
@@ -55,15 +51,5 @@ function displayLesson(lesson) {
     document.getElementById("eq").textContent = "EQ: " + lesson.eq;
 }
 
-// Refresh page every 2 hours
-function setupAutoRefresh() {
-    setTimeout(() => {
-        window.location.reload();
-    }, 7200000); // 2 hours in milliseconds
-}
-
 // Initialize
-document.addEventListener("DOMContentLoaded", () => {
-    fetchJSONData();
-    setupAutoRefresh();
-});
+document.addEventListener("DOMContentLoaded", fetchJSONData);
