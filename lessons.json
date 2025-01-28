@@ -107,4 +107,22 @@
         "iWill": "Evaluate my team’s performance and consider improvements for future projects.",
         "eq": "How can reflecting on a project lead to personal and team growth?"
     }
+    {
+        "date": "1/29/2025",
+        "weWill": "Analyze how toys can balance fun and education by evaluating design features and brainstorming ideas for a new educational toy proposal.",
+        "iWill": "Evaluate a toy I remember playing with for its fun and educational features, collaborate with peers to identify key design elements, and reflect on what I need to learn to complete my proposal.",
+        "eq": "What design features make a toy both fun and educational, and how can we create a product that inspires curiosity about mechanical engineering?"
+    },
+    {
+        "date": "1/30/2025",
+        "weWill": "Investigate STEM career paths, emerging technologies, and barriers faced by underrepresented groups in STEM fields.",
+        "iWill": "Analyze an existing STEM toy or book for its effectiveness and start researching demographics and emerging technologies to inform my project.",
+        "eq": "What challenges do underrepresented groups face in STEM, and how can educational toys and books help address these barriers?"
+    },
+    {
+        "date": "1/31/2025",
+        "weWill": "Begin designing an educational toy and accompanying book that address barriers to STEM engagement for underrepresented groups.",
+        "iWill": "Use brainstorming techniques and concept sketches to outline ideas for my toy and book, incorporating mechanical engineering principles.",
+        "eq": "How can we design a toy and book that inspire curiosity about mechanical engineering and overcome barriers to STEM for underrepresented groups?"
+    }    
 ]
