@@ -1,5 +1,35 @@
 [
     {
+        "date": "02/14/2025",
+        "weWill": "Demonstrate our understanding of drafting concepts through an assessment and complete our Autodesk Fusion Mini-Project.",
+        "iWill": "Take the Chapter 1 test and finalize my Autodesk Fusion Mini-Project for submission.",
+        "eq": "How well do I understand the fundamentals of drafting, and how can I apply them to my toy project?"
+    },
+    {
+        "date": "02/13/2025",
+        "weWill": "Develop technical drafting skills by creating a basic 3D model in Autodesk Fusion.",
+        "iWill": "Use Autodesk Fusion to create a simple 3D model based on given specifications.",
+        "eq": "How can I use Autodesk Fusion to accurately represent objects in 3D?"
+    },
+    {
+        "date": "02/12/2025",
+        "weWill": "Reflect on our progress and ensure we understand key drafting concepts.",
+        "iWill": "Review my notes, clarify any questions about drafting, and reflect on how it applies to my toy project.",
+        "eq": "What have I learned so far about drafting, and how does it connect to real-world design?"
+    },
+    {
+        "date": "02/11/2025",
+        "weWill": "Apply our understanding of drafting by beginning to create technical sketches and digital designs.",
+        "iWill": "Practice using Autodesk Fusion by setting up my workspace and creating basic sketches.",
+        "eq": "What are the first steps in using Autodesk Fusion to develop a design?"
+    },
+    {
+        "date": "02/10/2025",
+        "weWill": "Explore why drafting is important and how it helps us communicate ideas.",
+        "iWill": "Read Chapter 1, review slides, and reflect on why drafting matters.",
+        "eq": "Why is drafting an essential skill for engineers and designers?"
+    },
+    {
         "date": "02/07/2025",
         "weWill": "Evaluate progress and refine our toy project ideas.",
         "iWill": "Complete missing work and refine my project based on teacher feedback.",
