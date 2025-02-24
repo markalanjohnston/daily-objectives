@@ -1,21 +1,9 @@
 [
     {
-        "date": "02/24/2025",
-        "weWill": "Start building a 3D model of our toy idea.",
-        "iWill": "Create a rough draft of my 3D toy rendering in Tinkercad.",
-        "eq": "How do 3D models help bring our ideas to life?"
-    },
-    {
-        "date": "02/25/2025",
-        "weWill": "Refine our 3D sketches and apply measurements.",
-        "iWill": "Make improvements based on size, proportion, and accuracy.",
-        "eq": "Why is accuracy important in 3D modeling?"
-    },
-    {
-        "date": "02/26/2025",
-        "weWill": "Assess our work and get feedback on accuracy & design.",
-        "iWill": "Review my model and identify what needs improvement.",
-        "eq": "How can peer feedback improve my design?"
+        "date": "02/28/2025",
+        "weWill": "Demonstrate understanding of Chapters 1-3 through assessment.",
+        "iWill": "Complete my Mastery Test & continue refining my toy rendering.",
+        "eq": "How well do I understand drafting concepts from Chapters 1-3?"
     },
     {
         "date": "02/27/2025",
@@ -24,10 +12,22 @@
         "eq": "What final adjustments does my design need?"
     },
     {
-        "date": "02/28/2025",
-        "weWill": "Demonstrate understanding of Chapters 1-3 through assessment.",
-        "iWill": "Complete my Mastery Test & continue refining my toy rendering.",
-        "eq": "How well do I understand drafting concepts from Chapters 1-3?"
+        "date": "02/26/2025",
+        "weWill": "Assess our work and get feedback on accuracy & design.",
+        "iWill": "Review my model and identify what needs improvement.",
+        "eq": "How can peer feedback improve my design?"
+    },
+    {
+        "date": "02/25/2025",
+        "weWill": "Refine our 3D sketches and apply measurements.",
+        "iWill": "Make improvements based on size, proportion, and accuracy.",
+        "eq": "Why is accuracy important in 3D modeling?"
+    },
+    {
+        "date": "02/24/2025",
+        "weWill": "Start building a 3D model of our toy idea.",
+        "iWill": "Create a rough draft of my 3D toy rendering in Tinkercad.",
+        "eq": "How do 3D models help bring our ideas to life?"
     },
     {
         "date": "02/21/2025",
