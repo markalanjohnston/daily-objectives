@@ -1,5 +1,65 @@
 [
     {
+        "date": "03/28/2025",
+        "weWill": "Demonstrate understanding of weekly reading through a quiz and submit accumulated writing.",
+        "iWill": "Complete the quiz and submit all written reflections for grading.",
+        "eq": "What have I learned about different types of engineering, and which fields interest me the most?"
+    },
+    {
+        "date": "03/27/2025",
+        "weWill": "Read and reflect on Electrical Engineering applications.",
+        "iWill": "Write a paragraph reflecting on how Electrical Engineering aligns with personal interests.",
+        "eq": "How does Electrical Engineering impact daily life, and how does it align with my interests?"
+    },
+    {
+        "date": "03/26/2025",
+        "weWill": "Continue reading and reflecting on Manufacturing Engineering applications.",
+        "iWill": "Write a paragraph reflecting on a specific Manufacturing Engineering application that interests me.",
+        "eq": "What specific aspects of Manufacturing Engineering interest me the most?"
+    },
+    {
+        "date": "03/25/2025",
+        "weWill": "Read and reflect on Manufacturing Engineering applications.",
+        "iWill": "Write a paragraph reflecting on how Manufacturing Engineering aligns with personal interests.",
+        "eq": "How does Manufacturing Engineering impact daily life, and how does it align with my interests?"
+    },
+    {
+        "date": "03/24/2025",
+        "weWill": "Explore the basics of Manufacturing Engineering and its role in modern industry.",
+        "iWill": "Identify key aspects of Manufacturing Engineering and its impact on production.",
+        "eq": "What is Manufacturing Engineering, and how does it shape our world?"
+    },
+    {
+        "date": "03/21/2025",
+        "weWill": "Demonstrate understanding of weekly reading through a quiz and submit accumulated writing.",
+        "iWill": "Complete the quiz and submit all written reflections for grading.",
+        "eq": "What have I learned about different types of engineering, and which fields interest me the most?"
+    },
+    {
+        "date": "03/20/2025",
+        "weWill": "Read and reflect on Materials Engineering applications.",
+        "iWill": "Write a paragraph reflecting on how Materials Engineering aligns with personal interests.",
+        "eq": "How does Materials Engineering impact daily life, and how does it align with my interests?"
+    },
+    {
+        "date": "03/19/2025",
+        "weWill": "Continue reading and reflecting on Mechanical Engineering applications.",
+        "iWill": "Write a paragraph reflecting on a specific Mechanical Engineering application that interests me.",
+        "eq": "What specific aspects of Mechanical Engineering interest me the most?"
+    },
+    {
+        "date": "03/18/2025",
+        "weWill": "Read and reflect on Mechanical Engineering applications.",
+        "iWill": "Write a paragraph reflecting on how Mechanical Engineering aligns with personal interests.",
+        "eq": "How does Mechanical Engineering impact daily life, and how does it align with my interests?"
+    },
+    {
+        "date": "03/17/2025",
+        "weWill": "Analyze personal work preferences and career pathways.",
+        "iWill": "Identify personal work style preferences and how they relate to career selection.",
+        "eq": "What kind of work environment do I prefer, and how does that impact my career choices?"
+    },
+    {
         "date": "03/04/2025",
         "weWill": "Complete any final assignments and engage in optional enrichment activities.",
         "iWill": "Ensure all my work is submitted and take part in enrichment if I'm caught up.",
