@@ -1,5 +1,35 @@
 [
     {
+        "date": "04/04/2025",
+        "weWill": "Demonstrate understanding of weekly reading through a quiz and submit accumulated writing.",
+        "iWill": "Complete the quiz and submit all written reflections for grading.",
+        "eq": "Which engineering fields have piqued my interest the most this week, and why?"
+    },
+    {
+        "date": "04/03/2025",
+        "weWill": "Continue reading and reflecting on Civil Engineering concepts and applications.",
+        "iWill": "Write a paragraph reflecting on how Civil Engineering aligns with my personal interests.",
+        "eq": "How does Civil Engineering impact daily life, and how does it align with my interests?"
+    },
+    {
+        "date": "04/02/2025",
+        "weWill": "Begin exploring Civil Engineering and its real-world impact.",
+        "iWill": "Write a paragraph reflecting on a Civil Engineering concept or project that interests me.",
+        "eq": "What is Civil Engineering, and how does it shape the infrastructure around us?"
+    },
+    {
+        "date": "04/01/2025",
+        "weWill": "Continue reading and reflecting on Computer Engineering applications.",
+        "iWill": "Write a paragraph reflecting on a Computer Engineering application that interests me.",
+        "eq": "What specific aspects of Computer Engineering interest me the most?"
+    },
+    {
+        "date": "03/31/2025",
+        "weWill": "Explore the basics of Computer Engineering (Part 1) and its role in modern computing.",
+        "iWill": "Identify key aspects of Computer Engineering and how they shape digital systems.",
+        "eq": "How does Computer Engineering influence modern technology and daily life?"
+    },
+    {
         "date": "03/28/2025",
         "weWill": "Demonstrate understanding of weekly reading through a quiz and submit accumulated writing.",
         "iWill": "Complete the quiz and submit all written reflections for grading.",
