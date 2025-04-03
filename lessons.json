@@ -1,5 +1,89 @@
 [
     {
+        "date": "04/25/2025",
+        "weWill": "Review and finalize our understanding of Chapter 16 bioengineering concepts, address any incomplete reflections, and clarify remaining questions.",
+        "iWill": "Finish any outstanding documentary notes or writing, and solidify my grasp on core bioengineering topics (homeostasis, genetics, energy, etc.).",
+        "eq": "Which bioengineering insights from this week are most crucial to remember?"
+    },
+    {
+        "date": "04/24/2025",
+        "weWill": "Discuss key takeaways from the gene editing documentary and connect insights to Chapter 16 (bioengineering concepts).",
+        "iWill": "Summarize the documentary’s main themes and relate them to real-world bioengineering applications.",
+        "eq": "How do biotech breakthroughs affect real people, and what are the trade-offs?"
+    },
+    {
+        "date": "04/23/2025",
+        "weWill": "Finish the gene editing documentary (Part 2) and explore ethical, social, and technical implications of bioengineering.",
+        "iWill": "Complete questions about the documentary, focusing on real-world applications and controversies in gene editing.",
+        "eq": "Which ethical challenges arise when we modify the genes of humans, animals, or other organisms?"
+    },
+    {
+        "date": "04/22/2025",
+        "weWill": "Continue exploring bioengineering fields and begin watching Part 1 of the gene editing documentary.",
+        "iWill": "Take notes during the documentary, focusing on how genetic engineering impacts various fields and industries.",
+        "eq": "How does genetic engineering transform different industries, and what are the potential benefits or risks?"
+    },
+    {
+        "date": "04/21/2025",
+        "weWill": "Explore foundational bioengineering concepts (cell theory, genetics, homeostasis, and energy) from Chapter 16.",
+        "iWill": "Identify the core biological principles that bioengineers use to solve problems in medicine, agriculture, and industry.",
+        "eq": "What foundational biology concepts fuel modern bioengineering?"
+    },
+    {
+        "date": "04/17/2025",
+        "weWill": "Watch a documentary on UT’s Chemical Engineering department and reflect on the field’s impact, past and present.",
+        "iWill": "Take notes on the documentary and answer guiding questions about how chemical engineering transforms society.",
+        "eq": "What inspired UT chemical engineers to develop breakthroughs that shape modern life?"
+    },
+    {
+        "date": "04/16/2025",
+        "weWill": "Review advanced concepts from Chapter 15, focusing on safety data sheets (SDS), hazard warnings, and environmental impact of chemical processes.",
+        "iWill": "Evaluate why safety regulations and environmental considerations are crucial in large-scale chemical plant operations.",
+        "eq": "How do safety considerations and environmental regulations influence chemical plant design?"
+    },
+    {
+        "date": "04/15/2025",
+        "weWill": "Continue exploring chemical engineering processes (reaction design, measuring flow).",
+        "iWill": "Write a short reflection on a chemical operation (mass flow, temperature control) and discuss how it scales up in industry.",
+        "eq": "What role do thermodynamics and fluid dynamics play in chemical operations?"
+    },
+    {
+        "date": "04/14/2025",
+        "weWill": "Introduce chemical engineering principles (thermodynamics, fluid flow, mass balance).",
+        "iWill": "Identify the main goals of chemical engineers and find examples of chemical processes in everyday life.",
+        "eq": "How do chemical engineers differ from chemists, and why are large-scale processes crucial?"
+    },
+    {
+        "date": "04/11/2025",
+        "weWill": "Review and consolidate aerospace engineering concepts covered this week.",
+        "iWill": "Evaluate my understanding of aerospace engineering by writing a short review or Q&A.",
+        "eq": "How has my perspective on Aerospace Engineering evolved after this week’s study?"
+    },
+    {
+        "date": "04/10/2025",
+        "weWill": "Dive deeper into aerospace engineering case studies and challenges.",
+        "iWill": "Summarize key takeaways from the aerospace engineering applications we have studied.",
+        "eq": "What are the biggest challenges aerospace engineers face in creating safe, efficient aircraft?"
+    },
+    {
+        "date": "04/09/2025",
+        "weWill": "Continue reading the same Chapter 14 material (for students disrupted by STAAR).",
+        "iWill": "Write or refine my reflection paragraph, ensuring STAAR-absent students can catch up.",
+        "eq": "How can we adapt flight principles to different environments or vehicle types?"
+    },
+    {
+        "date": "04/08/2025",
+        "weWill": "Continue reading Chapter 14 with a focus on flight principles and real-world examples.",
+        "iWill": "Write a reflection paragraph on a specific aerospace engineering concept.",
+        "eq": "Which principles of flight are most crucial to aerospace designs?"
+    },
+    {
+        "date": "04/07/2025",
+        "weWill": "Begin exploring basic aerospace engineering concepts and applications (Chapter 14).",
+        "iWill": "Identify how aerospace engineers design for flight and space exploration.",
+        "eq": "How does Aerospace Engineering shape modern transportation and exploration?"
+    },
+    {
         "date": "04/04/2025",
         "weWill": "Demonstrate understanding of weekly reading through a quiz and submit accumulated writing.",
         "iWill": "Complete the quiz and submit all written reflections for grading.",
