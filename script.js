@@ -7,40 +7,69 @@ async function fetchJSONData() {
         const data = await response.json();
         lessonData = data;
 
-        // Populate the dropdown menu with available dates
-        const dateDropdown = document.getElementById("dateDropdown");
-        
-        // Add default "SELECT DAY" option
-        const defaultOption = document.createElement("option");
-        defaultOption.value = "";
-        defaultOption.textContent = "SELECT DAY";
-        defaultOption.disabled = true; // Prevent selection
-        defaultOption.selected = true; // Set as default
-        dateDropdown.appendChild(defaultOption);
-
-        // Add actual date options
-        data.forEach(lesson => {
-            const option = document.createElement("option");
-            option.value = lesson.date;
-            option.textContent = lesson.date;
-            dateDropdown.appendChild(option);
-        });
-
-        // Add event listener for dropdown changes
-        dateDropdown.addEventListener("change", (e) => {
-            const selectedDate = e.target.value;
-            const selectedLesson = lessonData.find(lesson => lesson.date === selectedDate);
-            if (selectedLesson) {
-                displayLesson(selectedLesson);
-            } else {
-                console.error("No data found for the selected date.");
-            }
-        });
+        // Create the calendar grid
+        createCalendar();
 
     } catch (error) {
         console.error("Error fetching JSON data:", error);
         document.getElementById("content").innerHTML = "<p style='padding: 20px; font-size: 2rem;'>Error loading data.</p>";
     }
+}
+
+// Function to create and display the calendar grid
+function createCalendar() {
+    const calendarContainer = document.getElementById("calendar");
+
+    // Get current month and year
+    const today = new Date();
+    const month = today.getMonth(); // Current month (0-11)
+    const year = today.getFullYear();
+
+    // First day of the month (to determine where the calendar starts)
+    const firstDay = new Date(year, month, 1);
+    const lastDay = new Date(year, month + 1, 0);
+    const daysInMonth = lastDay.getDate(); // Total days in current month
+
+    // Create calendar days
+    let days = [];
+    for (let i = 1; i <= daysInMonth; i++) {
+        let day = new Date(year, month, i);
+        let formattedDate = formatDate(day); // Format date as "MM/DD/YYYY"
+        let dayElement = document.createElement("div");
+        dayElement.classList.add("calendar-day");
+
+        // Check if there is a lesson for this date
+        const hasLesson = lessonData.some(lesson => lesson.date === formattedDate);
+        if (hasLesson) {
+            dayElement.classList.add("highlight");
+        }
+
+        dayElement.textContent = i;
+        dayElement.dataset.date = formattedDate;
+
+        // Add click event to display lesson details
+        dayElement.addEventListener("click", () => {
+            const selectedDate = dayElement.dataset.date;
+            const selectedLesson = lessonData.find(lesson => lesson.date === selectedDate);
+            if (selectedLesson) {
+                displayLesson(selectedLesson);
+            }
+        });
+
+        days.push(dayElement);
+    }
+
+    // Append days to the calendar
+    calendarContainer.innerHTML = ''; // Clear any previous calendar
+    days.forEach(dayElement => calendarContainer.appendChild(dayElement));
+}
+
+// Format date as "MM/DD/YYYY"
+function formatDate(date) {
+    const month = (date.getMonth() + 1).toString().padStart(2, '0');
+    const day = date.getDate().toString().padStart(2, '0');
+    const year = date.getFullYear();
+    return `${month}/${day}/${year}`;
 }
 
 // Function to display lesson details
