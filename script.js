@@ -33,6 +33,11 @@ async function fetchJSONData() {
             }
         });
 
+        // Trigger the input event listener manually after setting today's date
+        const todayDate = document.getElementById("dateInput").value;
+        const event = new Event('input');
+        document.getElementById("dateInput").dispatchEvent(event);
+
     } catch (error) {
         console.error("Error fetching JSON data:", error);
         document.getElementById("content").innerHTML = "<p style='padding: 20px; font-size: 2rem;'>Error loading data.</p>";
