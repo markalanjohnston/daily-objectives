@@ -1,5 +1,36 @@
 [
     {
+        "date": "05/02/2025",
+        "weWill": "Demonstrate mastery on the cumulative test and submit polished writing reflections.",
+        "iWill": "Apply my knowledge on the test and turn in a single PDF containing my four reflection paragraphs.",
+        "eq": "How can I use assessments and reflections to guide future learning in STEM?"
+    },
+    {
+        "date": "05/01/2025",
+        "weWill": "Self-assess understanding and clarify any weak areas before Friday’s test.",
+        "iWill": "Use study guides, peers, and teacher Q&A to prepare confidently for the assessment.",
+        "eq": "What strategies help me solidify and demonstrate engineering knowledge?"
+    },
+    {
+        "date": "04/30/2025",
+        "weWill": "Revisit key concepts from Chapters 14-17 through interactive Nearpod challenges.",
+        "iWill": "Actively participate in Nearpod activities (quizzes, Time-to-Climb, Draw-It, etc.).",
+        "eq": "Which core ideas from Chapters 14-17 are most critical for real-world engineering?"
+    },
+    {
+        "date": "04/29/2025",
+        "weWill": "Complete Chapter 17 reading and connect environmental engineering solutions to real-world roles.",
+        "iWill": "Draft my Environmental Engineering reflection paragraph and finalize edits to earlier reflections.",
+        "eq": "How do environmental engineers balance public health with ecosystem needs?"
+    },
+    {
+        "date": "04/28/2025",
+        "weWill": "Connect water-quality basics to the Flint, Michigan crisis.",
+        "iWill": "Explain how untreated water corroded Flint’s pipes and list one engineering prevention method.",
+        "eq": "Why did Flint’s water become unsafe, and how could engineers have prevented it?"
+    },
+
+    {
         "date": "04/28/2025",
         "weWill": "Preview Chapter 17 and explore how poor engineering decisions caused the Flint, MI water crisis.",
         "iWill": "Explain one way environmental engineers protect people from contaminated water.",
