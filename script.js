@@ -7,6 +7,9 @@ async function fetchJSONData() {
         const data = await response.json();
         lessonData = data;
 
+        // Set today's date as the default value for the date input field
+        setTodayDate();
+
         // Set up the date picker to allow valid date selection
         const dateInput = document.getElementById("dateInput");
 
@@ -34,6 +37,16 @@ async function fetchJSONData() {
         console.error("Error fetching JSON data:", error);
         document.getElementById("content").innerHTML = "<p style='padding: 20px; font-size: 2rem;'>Error loading data.</p>";
     }
+}
+
+// Set today's date as the default value in the input[type="date"]
+function setTodayDate() {
+    const today = new Date();
+    const yyyy = today.getFullYear();
+    const mm = (today.getMonth() + 1).toString().padStart(2, '0'); // Months are zero-based, so we add 1
+    const dd = today.getDate().toString().padStart(2, '0'); // Add leading zero if necessary
+    const todayDate = `${yyyy}-${mm}-${dd}`; // Format as YYYY-MM-DD
+    document.getElementById("dateInput").value = todayDate; // Set the value of the date input
 }
 
 // Convert date from YYYY-MM-DD format (from input) to MM/DD/YYYY format (to match JSON data)
