@@ -7,17 +7,25 @@ async function fetchJSONData() {
         const data = await response.json();
         lessonData = data;
 
-        // Set up the date picker to only allow valid dates
+        // Set up the date picker to allow valid date selection
         const dateInput = document.getElementById("dateInput");
 
         // Add event listener for date selection
         dateInput.addEventListener("input", (e) => {
             const selectedDate = e.target.value;
-            const selectedLesson = lessonData.find(lesson => lesson.date === selectedDate);
+            console.log("Selected Date: ", selectedDate); // Debugging line
+
+            // Convert the selected date to MM/DD/YYYY format
+            const formattedSelectedDate = convertToMMDDYYYY(selectedDate);
+            console.log("Formatted Selected Date: ", formattedSelectedDate); // Debugging line
+
+            // Find the lesson based on the formatted date
+            const selectedLesson = lessonData.find(lesson => lesson.date === formattedSelectedDate);
             if (selectedLesson) {
+                console.log("Lesson Found: ", selectedLesson); // Debugging line
                 displayLesson(selectedLesson);
             } else {
-                // If no lesson data is found, clear the displayed lesson
+                console.log("No lesson found for selected date"); // Debugging line
                 clearLessonDisplay();
             }
         });
@@ -26,6 +34,12 @@ async function fetchJSONData() {
         console.error("Error fetching JSON data:", error);
         document.getElementById("content").innerHTML = "<p style='padding: 20px; font-size: 2rem;'>Error loading data.</p>";
     }
+}
+
+// Convert date from YYYY-MM-DD format (from input) to MM/DD/YYYY format (to match JSON data)
+function convertToMMDDYYYY(date) {
+    const [year, month, day] = date.split('-');
+    return `${month}/${day}/${year}`;
 }
 
 // Function to display lesson details
