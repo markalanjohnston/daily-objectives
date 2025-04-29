@@ -26,31 +26,18 @@
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
         }
 
-        #calendar {
-            display: grid;
-            grid-template-columns: repeat(7, 1fr);
-            gap: 10px;
+        #date-selector {
             margin: 20px auto;
-            width: 80%;
-            max-width: 900px;
-        }
-
-        .calendar-day {
-            padding: 15px;
-            background-color: #333;
-            border-radius: 6px;
-            cursor: pointer;
-            font-size: 1.2rem;
             text-align: center;
         }
 
-        .calendar-day:hover {
-            background-color: #555;
-        }
-
-        .highlight {
-            background-color: #28a745; /* Green for dates with lessons */
-            color: #fff;
+        input[type="date"] {
+            padding: 10px;
+            font-size: 1.2rem;
+            border-radius: 4px;
+            border: none;
+            background-color: #28a745;
+            color: white;
         }
 
         #date {
@@ -87,8 +74,11 @@
 </head>
 <body>
     <div>
-        <!-- Calendar container -->
-        <div id="calendar"></div>
+        <!-- Date input field -->
+        <div id="date-selector">
+            <label for="dateInput" style="font-size: 1.5rem; margin-right: 10px;">Select Date:</label>
+            <input type="date" id="dateInput">
+        </div>
 
         <!-- Content container -->
         <div id="content">
