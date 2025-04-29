@@ -1,4 +1,148 @@
 [
+      {
+        "date": "06/06/2025",
+        "weWill": "Celebrate successes & set future learning goals.",
+        "iWill": "Reflect on achievements and identify one engineering skill to improve.",
+        "eq": "How will I use this year’s learning to excel next year?"
+      },
+      {
+        "date": "06/05/2025",
+        "weWill": "Apply engineering principles in a fun, open-ended task.",
+        "iWill": "Design, build, and test a small-scale tower, iterating for maximum height.",
+        "eq": "Which design choices maximize height?"
+      },
+      {
+        "date": "06/04/2025",
+        "weWill": "Verify scores and learn from mistakes.",
+        "iWill": "Check my grade report and request clarifications if needed.",
+        "eq": "How can reviewing my performance boost future success?"
+      },
+      {
+        "date": "06/03/2025",
+        "weWill": "Complete the semester assessment and show growth.",
+        "iWill": "Retake or finish the test (if needed) and review my strategies.",
+        "eq": "What strategies help me perform my best on cumulative exams?"
+      },
+      {
+        "date": "06/02/2025",
+        "weWill": "Demonstrate mastery of semester content.",
+        "iWill": "Focus, manage my time, and complete the semester test.",
+        "eq": "How well do I recall and apply the semester’s key concepts?"
+      },
+      {
+        "date": "05/30/2025",
+        "weWill": "Demonstrate overall readiness through a full-length practice exam.",
+        "iWill": "Finish the practice test and identify goals for final study.",
+        "eq": "Am I fully prepared to excel on next week’s semester test?"
+      },
+      {
+        "date": "05/29/2025",
+        "weWill": "Clarify lingering questions and practice challenging items.",
+        "iWill": "Work with peers or independently to master tough topics.",
+        "eq": "How can targeted practice close my remaining knowledge gaps?"
+      },
+      {
+        "date": "05/28/2025",
+        "weWill": "Recall and apply key concepts through friendly competition.",
+        "iWill": "Answer review-game questions and record areas to revisit.",
+        "eq": "Which exam concepts still need clarification?"
+      },
+      {
+        "date": "05/27/2025",
+        "weWill": "Use enrichment tasks to reinforce drafting and CAD skills.",
+        "iWill": "Complete the enrichment CAD challenge and self-check my work.",
+        "eq": "How can CAD skills improve accuracy and efficiency in design?"
+      },
+      {
+        "date": "05/23/2025",
+        "weWill": "Demonstrate mastery on a quiz and submit a finished 3-D model.",
+        "iWill": "Turn in STL and screenshot, then take the quiz for a grade boost.",
+        "eq": "Have I achieved a print-ready model that meets all specs?"
+      },
+      {
+        "date": "05/22/2025",
+        "weWill": "Use feedback to refine geometry and export an STL preview.",
+        "iWill": "Correct any errors so the model matches the drawing exactly.",
+        "eq": "Why is iterative feedback vital before final export?"
+      },
+      {
+        "date": "05/21/2025",
+        "weWill": "Apply fillets, chamfers, edits, and verify model accuracy.",
+        "iWill": "Complete all details and run measurement checks.",
+        "eq": "How do modifications affect parametric relationships?"
+      },
+      {
+        "date": "05/20/2025",
+        "weWill": "Create parametric sketches and extrude to accurate dimensions.",
+        "iWill": "Build the base shape, constrain sizes, and label features.",
+        "eq": "Which sketch constraints ensure dimensional accuracy?"
+      },
+      {
+        "date": "05/19/2025",
+        "weWill": "Review CAD file setup, coordinate systems, and constraints.",
+        "iWill": "Interpret the isometric drawing and set up a blank Tinkercad file.",
+        "eq": "How does CAD translate 2-D data into an accurate 3-D model?"
+      },
+      {
+        "date": "05/16/2025",
+        "weWill": "Show mastery via a quiz and polished dimensioned drawings.",
+        "iWill": "Submit Drafting Set #2 and complete the quiz for a grade boost.",
+        "eq": "Have I mastered Chapter 10 dimensioning skills for future design work?"
+      },
+      {
+        "date": "05/15/2025",
+        "weWill": "Analyze feedback and refine clarity to meet Chapter 10 standards.",
+        "iWill": "Revise both drawings to meet rubric mastery.",
+        "eq": "How does iterative feedback improve technical accuracy?"
+      },
+      {
+        "date": "05/14/2025",
+        "weWill": "Add tolerances and GD&T symbols where required.",
+        "iWill": "Finish dimensions and tolerances for drawing #2.",
+        "eq": "Why is GD&T critical for part interchangeability?"
+      },
+      {
+        "date": "05/13/2025",
+        "weWill": "Apply dimension styles and place size/location dimensions accurately.",
+        "iWill": "Complete projection and add all required dimensions for drawing #1.",
+        "eq": "What placement strategies ensure readability and minimize errors?"
+      },
+      {
+        "date": "05/12/2025",
+        "weWill": "Review dimensioning rules, line conventions, and tolerancing basics.",
+        "iWill": "Set up two multiview layouts and begin transferring edges.",
+        "eq": "How do dimensions and tolerances communicate manufacturing intent?"
+      },
+      {
+        "date": "05/09/2025",
+        "weWill": "Demonstrate mastery via a quiz and submit polished multiview drawings.",
+        "iWill": "Finish all three drawings and complete the quiz to boost my grade.",
+        "eq": "Have I mastered Chapter 9 multiview skills enough for future drafting tasks?"
+      },
+      {
+        "date": "05/08/2025",
+        "weWill": "Analyze feedback and revise drawings to meet mastery criteria.",
+        "iWill": "Implement teacher notes to improve accuracy and neatness.",
+        "eq": "How does targeted feedback elevate technical drawings?"
+      },
+      {
+        "date": "05/07/2025",
+        "weWill": "Continue projecting points and refining line quality.",
+        "iWill": "Refine projections and add hidden lines where needed.",
+        "eq": "What role does line quality play in communicating design intent?"
+      },
+      {
+        "date": "05/06/2025",
+        "weWill": "Apply projection skills to create accurate multiviews with proper line types.",
+        "iWill": "Complete at least two of three multiviews independently.",
+        "eq": "Which projection techniques ensure true size and shape?"
+      },
+      {
+        "date": "05/05/2025",
+        "weWill": "Review orthographic projection rules and model how to convert an isometric to multiview.",
+        "iWill": "Identify principal views and set up the layout for three objects.",
+        "eq": "How do drafters translate a 3-D object into precise 2-D multiviews?"
+      },
     {
         "date": "05/02/2025",
         "weWill": "Demonstrate mastery on the cumulative test and submit polished writing reflections.",
