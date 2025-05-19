@@ -1,87 +1,33 @@
 [
       {
-        "date": "06/06/2025",
-        "weWill": "Celebrate successes & set future learning goals.",
-        "iWill": "Reflect on achievements and identify one engineering skill to improve.",
-        "eq": "How will I use this year’s learning to excel next year?"
-      },
-      {
-        "date": "06/05/2025",
-        "weWill": "Apply engineering principles in a fun, open-ended task.",
-        "iWill": "Design, build, and test a small-scale tower, iterating for maximum height.",
-        "eq": "Which design choices maximize height?"
-      },
-      {
-        "date": "06/04/2025",
-        "weWill": "Verify scores and learn from mistakes.",
-        "iWill": "Check my grade report and request clarifications if needed.",
-        "eq": "How can reviewing my performance boost future success?"
-      },
-      {
-        "date": "06/03/2025",
-        "weWill": "Complete the semester assessment and show growth.",
-        "iWill": "Retake or finish the test (if needed) and review my strategies.",
-        "eq": "What strategies help me perform my best on cumulative exams?"
-      },
-      {
-        "date": "06/02/2025",
-        "weWill": "Demonstrate mastery of semester content.",
-        "iWill": "Focus, manage my time, and complete the semester test.",
-        "eq": "How well do I recall and apply the semester’s key concepts?"
-      },
-      {
-        "date": "05/30/2025",
-        "weWill": "Demonstrate overall readiness through a full-length practice exam.",
-        "iWill": "Finish the practice test and identify goals for final study.",
-        "eq": "Am I fully prepared to excel on next week’s semester test?"
-      },
-      {
-        "date": "05/29/2025",
-        "weWill": "Clarify lingering questions and practice challenging items.",
-        "iWill": "Work with peers or independently to master tough topics.",
-        "eq": "How can targeted practice close my remaining knowledge gaps?"
-      },
-      {
-        "date": "05/28/2025",
-        "weWill": "Recall and apply key concepts through friendly competition.",
-        "iWill": "Answer review-game questions and record areas to revisit.",
-        "eq": "Which exam concepts still need clarification?"
-      },
-      {
-        "date": "05/27/2025",
-        "weWill": "Use enrichment tasks to reinforce drafting and CAD skills.",
-        "iWill": "Complete the enrichment CAD challenge and self-check my work.",
-        "eq": "How can CAD skills improve accuracy and efficiency in design?"
-      },
-      {
         "date": "05/23/2025",
-        "weWill": "Demonstrate mastery on a quiz and submit a finished 3-D model.",
-        "iWill": "Turn in STL and screenshot, then take the quiz for a grade boost.",
-        "eq": "Have I achieved a print-ready model that meets all specs?"
+        "weWill": "Wrap up and submit anything still incomplete.",
+        "iWill": "Double check that my final project and quiz are both submitted.",
+        "eq": "Did I finish my final project to the best of my ability?"
       },
       {
         "date": "05/22/2025",
-        "weWill": "Use feedback to refine geometry and export an STL preview.",
-        "iWill": "Correct any errors so the model matches the drawing exactly.",
-        "eq": "Why is iterative feedback vital before final export?"
+        "weWill": "Submit final versions of my 3D model and complete the Chapter 7 quiz.",
+        "iWill": "Turn in my 3D model PDF and finish the quiz before the deadline.",
+        "eq": "Have I shown mastery in CAD modeling and understanding of Chapter 7?"
       },
       {
         "date": "05/21/2025",
-        "weWill": "Apply fillets, chamfers, edits, and verify model accuracy.",
-        "iWill": "Complete all details and run measurement checks.",
-        "eq": "How do modifications affect parametric relationships?"
+        "weWill": "Refine and check model; complete the quiz if I haven't already.",
+        "iWill": "Fix model details and verify answers before submitting.",
+        "eq": "How do I demonstrate accuracy in both modeling and understanding?"
       },
       {
         "date": "05/20/2025",
-        "weWill": "Create parametric sketches and extrude to accurate dimensions.",
-        "iWill": "Build the base shape, constrain sizes, and label features.",
-        "eq": "Which sketch constraints ensure dimensional accuracy?"
+        "weWill": "Advance work on the 3D model and take the Chapter 7 quiz.",
+        "iWill": "Make progress on my model and complete the quiz if ready.",
+        "eq": "What tools and features make CAD more efficient for engineers?"
       },
       {
         "date": "05/19/2025",
-        "weWill": "Review CAD file setup, coordinate systems, and constraints.",
-        "iWill": "Interpret the isometric drawing and set up a blank Tinkercad file.",
-        "eq": "How does CAD translate 2-D data into an accurate 3-D model?"
+        "weWill": "Launch the final project and preview CAD principles from Chapter 7.",
+        "iWill": "Start building the object I previously drafted and explore the test.",
+        "eq": "How does CAD translate 2D drafting into accurate 3D models?"
       },
       {
         "date": "05/16/2025",
