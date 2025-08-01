@@ -1,4 +1,34 @@
 [
+       {
+         "date": "08/08/2025",
+         "weWill": "Dive into the Engineering Design Process and why it matters.",
+         "iWill": "Learn the steps of the EDP and how to apply them in real life.",
+         "eq": "What does it mean to think like an engineer?"
+       },
+       {
+         "date": "08/07/2025",
+         "weWill": "Practice procedures that help us succeed and begin learning together.",
+         "iWill": "Review expectations and explore key ideas in Chapter 1 of our textbook.",
+         "eq": "How do clear routines help engineers (and students) succeed?"
+       },
+       {
+         "date": "08/06/2025",
+         "weWill": "Check in with how we’re doing as people and talk about the road ahead.",
+         "iWill": "Reflect on how I’m feeling, and learn why GPA matters for my future.",
+         "eq": "How do my choices now shape my future opportunities?"
+        },
+        {
+          "date": "08/05/2025",
+          "weWill": "Explore what engineering is and how asking questions drives innovation.",
+          "iWill": "Engage in activities that show how engineers think and solve problems.",
+          "eq": "Why do engineers ask questions before they build?"
+        },
+        {
+          "date": "08/04/2025",
+          "weWill": "Build community and set the stage for a successful year together.",
+          "iWill": "Introduce myself, get to know others, and understand class expectations.",
+          "eq": "What kind of learning community do I want to help create this year?"
+      },
       {
         "date": "06/05/2025",
         "weWill": "Celebrate our growth and look ahead to new opportunities.",
